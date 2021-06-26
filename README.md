@@ -50,8 +50,8 @@ There's a few special files in the hierarchy.
 Run this:
 
 ```sh
-git clone https://github.com/holman/dotfiles.git ~/.dotfiles
-cd ~/.dotfiles
+git clone https://github.com/tedbundyjr/dotfiles-1.git ~/Dropbox/dotfiles
+cd ~/Dropbox/dotfiles
 script/bootstrap
 ```
 
