@@ -15,7 +15,7 @@
         branch = auto
         ui = true
 [core]
-        excludesfile = ~/.gitignore
+	excludesfile = /Users/tedbundyjr/.gitignore_global
         editor = vim
 [apply]
         whitespace = nowarn
@@ -33,3 +33,16 @@
         default = simple
 [credential]
 	helper = osxkeychain
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[user]
+	name = Haris Subandie Md Suhaimin
+	email = haris@vms.my
+[commit]
+	template = /Users/tedbundyjr/.stCommitMsg
+[init]
+	defaultBranch = master
