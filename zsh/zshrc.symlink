@@ -56,3 +56,4 @@ alias sail='[ -f sail ] && bash sail || bash vendor/bin/sail'
 export PATH="/usr/local/anaconda3/bin:$PATH"
 
 eval "$(fnm env)"
+#export PATH="/usr/local/opt/elasticsearch@6/bin:$PATH"
