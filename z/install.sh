@@ -1,4 +1,4 @@
-if test ! -f "/usr/local/etc/profile.d/z.sh"
+if test ! -f "$(brew --prefix)/etc/profile.d/z.sh"
 then
     brew install z
 fi

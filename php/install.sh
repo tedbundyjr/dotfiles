@@ -17,3 +17,13 @@ if test ! $(which valet)
 then
     composer global require laravel/valet
 fi
+
+if test ! $(which fork)
+then
+    brew install fork
+fi
+
+if test ! $(which pstorm)
+then
+    brew install phpstorm
+fi

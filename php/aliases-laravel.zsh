@@ -2,6 +2,7 @@
 alias artisan='php artisan'
 alias art='php artisan'
 alias bob='php artisan bob::build'
+alias pf="fork . && pstorm ."
 
 # Development
 alias pas='php artisan serve'
