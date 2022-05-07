@@ -1,5 +1,6 @@
 #!zsh
 alias artisan='php artisan'
+alias art='php artisan'
 alias bob='php artisan bob::build'
 
 # Development
